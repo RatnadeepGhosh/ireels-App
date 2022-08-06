@@ -5,7 +5,7 @@
     align-items: center;
     margin-top: 8rem;
     text-align: center;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .login-card{
@@ -22,4 +22,18 @@
  margin-top: 1rem;
 }
 
+.insta-mob-bg{
+    background-image: url("../../assets/insta-mob-bg.png");
+    width:454px;
+    height:618px;
+    /* position: relative; */
+}
+
+.carousel{
+    height:auto;
+    position: absolute;
+    top: 50px;
+    left: 22px;
+    
+}
 
