@@ -69,9 +69,11 @@ function index() {
               fullName,
               email,
               password,
-              downloadURL
-            }
-
+              downloadURL,
+              uid: userInfo.user.uid,
+              posts:[],
+            };
+                            // db,collection name, document name
             await setDoc(doc(db, "users", userInfo.user.uid), userData);
             console.log("doc added to db");
 
